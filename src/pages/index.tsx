@@ -1,4 +1,4 @@
-import { AlbumList } from "../components/AlbumList";
+import { TypesList } from "../components/TypesList";
 import { Header } from "../components/Header";
 import { SearchBar } from "../components/SearchBar";
 import { BaseTemplate } from "../template/base";
@@ -8,7 +8,8 @@ export default function Home() {
     <BaseTemplate>
       <Header />
       <SearchBar />
-      <AlbumList />
+      <TypesList subtitle="Álbuns buscados recentemente" />
+      <TypesList subtitle="Álbuns buscados recentemente" />
     </BaseTemplate>
   );
 }

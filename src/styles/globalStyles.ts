@@ -11,6 +11,8 @@ const GlobalStyle = createGlobalStyle`
     --fontXLarge: 48px;
     --fontLarge: 24px;
     --fontMedium: 18px;
+    --fontRegular: 16px;
+    --fontSmall: 14px;
   }
 
   * {
@@ -28,7 +30,7 @@ const GlobalStyle = createGlobalStyle`
 
   body, #__next {
     width: 100%;
-    height: 100vh;
+    height: 100%;
   }
 
   body, input, textarea {
